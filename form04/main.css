@@ -1,0 +1,29 @@
+th{
+    background-color: blue;
+    color: #ffffff;
+}
+input{
+    border: dotted cyan;
+    background-color: #e0ffff;
+    padding: 11px;
+}
+
+
+select{
+    border: dotted cyan;
+    background-color: #e0ffff;
+
+}
+textarea{
+    border: dotted cyan;
+    background-color: #e0ffff;
+    padding: 10px;
+}
+button{
+    background-color: blue;
+    color: #ffffff;
+}
+table{
+    background-color: beige;
+}
+
