@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FORM 03</title>
+	<meta charset="utf-8">
+	<!-- Chèn liên kết tập tin CSS vào đây -->
+	<link rel="stylesheet" href="main.css">
+	<!-- Chèn liên kết các tập tin JavaScripts vào đây -->
+	<script src="main.js"></script>
+</head>
+
+<body>
+	<form action="https://fit.agu.edu.vn/demo.php" method="post" name="f">
+		<table border="" width="">
+			<!-- Chèn nội dung FORM vào đây -->
+			<tr>
+				<th colspan="2" align="center">Giải đáp kỹ thuật</th>
+			</tr>
+			<tr>
+				<td>Họ Và Tên:</td>
+				<td><input type="text" name="hoten"></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<td>Địa Chỉ:</td>
+				<td><input type="text" name="diachi"></td>
+			</tr>
+			<tr>
+				<td>Loại:</td>
+				<td>
+					<select name="loai">
+						<option value="">--Chọn--</option>
+						<option>Phần cứng</option>
+						<option>Phần mềm</option>
+						<option>Virus</option>
+						<option>Chưa biết</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Câu hỏi của bạn:</td>
+				<td><textarea name="cauhoi"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<button type="submit" onclick="return kiemtra()">Gửi câu hỏi</button>
+					<button type="reset">Hủy bỏ</button>
+				</td>
+				
+			</tr>
+		</table>
+	</form>
+</body>
+
+</html>

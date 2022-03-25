@@ -1,0 +1,27 @@
+body{
+    font-family:Arial;
+    font-size: 11pt;
+}
+th{
+    background-color: blue;
+    color: white;
+    font-size: 16pt;
+}
+input{
+    border: dotted aqua;
+    background-color:#e0ffff;
+}
+select{
+    border: dotted aqua;
+}
+textarea{
+    border: dotted aqua;
+}
+button{
+    background-color: blue;
+    color: white;
+}
+table{
+    background-color:bisque;
+    border-collapse: collapse;
+}
